@@ -1,0 +1,4 @@
+interface:
+  display_name: "动效制作与 AE 工程"
+  short_description: "参考动效临摹、矢量素材拆分、控制器关键帧组织与中文可编辑工程交付"
+  default_prompt: "使用 $ae-motion-production 制作或精修参考动效，将关键帧集中在有效控制器上，并交付中文命名的可编辑工程和预览。"
