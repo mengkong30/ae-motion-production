@@ -46,12 +46,12 @@ $skill-installer 请从 https://github.com/mengkong30/ae-motion-production 安�
 也可以提供固定版本目录，便于复现：
 
 ```text
-$skill-installer 请安装 https://github.com/mengkong30/ae-motion-production/tree/v1.0.0/skills/ae-motion-production 中的技能。
+$skill-installer 请安装 https://github.com/mengkong30/ae-motion-production/tree/v1.0.1/skills/ae-motion-production 中的技能。
 ```
 
 ### 方法二：手动复制
 
-1. 从 [Releases](https://github.com/mengkong30/ae-motion-production/releases) 下载 `ae-motion-production-v1.0.0.zip` 并解压。
+1. 从 [Releases](https://github.com/mengkong30/ae-motion-production/releases) 下载 `ae-motion-production-v1.0.1.zip` 并解压。
 2. 找到 `skills/ae-motion-production`，将这个完整目录放进用户级 `~/.agents/skills/`，或目标项目的 `.agents/skills/`。
 3. 检查最终结构为 `.agents/skills/ae-motion-production/SKILL.md`，同级保留 `agents/` 和 `references/`。
 4. 在 Codex 中检查技能是否可见；未出现时重启后再查看。已有同名版本时先备份自己的修改，避免重复安装造成选择混淆。
@@ -122,6 +122,10 @@ ae-motion-production/
 
 本仓库提供制作方法，不承诺任意参考的一键复现或所有软件版本的自动兼容。
 
+## 免责声明
+
+本项目为非官方辅助技能，不保证生成结果或软件兼容性。使用前请备份工程、检查输出，并确认软件和素材授权。完整的使用风险与责任说明见 [免责声明](DISCLAIMER.md)。
+
 ## 版本
 
-当前发布版本：**v1.0.0**。变更说明见 [CHANGELOG](CHANGELOG.md)。Release 附带完整 ZIP 和 SHA-256 校验文件。
+当前发布版本：**v1.0.1**。变更说明见 [CHANGELOG](CHANGELOG.md)。Release 附带完整 ZIP 和 SHA-256 校验文件。
